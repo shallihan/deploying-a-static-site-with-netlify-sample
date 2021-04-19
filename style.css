@@ -21,7 +21,7 @@ body {
 }
 
 .button {
-  background-color: #4400ff;
+  background: none;
   color: #ffffff;
   border-radius: 4px;
   padding: 10px 40px;
@@ -31,10 +31,6 @@ body {
 }
 
 .button:hover {
-  border: 5px solid black;
-  cursor: pointer;
+  font-size: 3rem;
 }
 
-.button:active {
-  border: 5px solid #ffd300;
-}
